@@ -134,7 +134,7 @@ class _DetailScreenState extends State<DetailScreen> {
                           ),
                           Expanded(
                             child: Text(
-                              _detailData!['personal']?['KekkeiGenkai'] ??
+                              _detailData!['personal']?['kekkeiGenkai']?[0] ??
                                   'Empty',
                               style: TextStyle(fontSize: 16),
                             ),
